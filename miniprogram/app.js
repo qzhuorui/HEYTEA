@@ -14,6 +14,10 @@ App({
       })
     }
 
-    this.globalData = {}
+    this.globalData.db = wx.cloud.database({ env: 'cloud1-9glx01mi7d6d043e' })
+
+  },
+  globalData: {
+    db: null
   }
 })
