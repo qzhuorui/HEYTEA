@@ -1,0 +1,1 @@
+"/Applications/wechatwebdevtools.app/Contents/MacOS/cli" cloud functions deploy --e cloud1-9glx01mi7d6d043e --n quickstartFunctions --r --project "/Users/choryanquan/WeChatProjects/HEYTEA" --report_start --report
