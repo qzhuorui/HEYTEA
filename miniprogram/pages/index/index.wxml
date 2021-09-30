@@ -6,20 +6,43 @@
   duration="{{duration}}" circular="{{circular}}">
   <block wx:for="{{banner}}" wx:for-item="item" wx:for-index="index">
     <swiper-item class="swiper_item">
-      <image src='{{item.img}}' class='banner' />
+      <image src='{{item.img}}' class='banner'></image>
     </swiper-item>
   </block>
 </swiper>
 
 <!-- 中部布局 -->
-<view class="mid-container">
+<view class="mid-container" style="flex-direction: column;">
+  <!-- 第一个子布局，横向排列 -->
+  <view class="mid-container-sub" style="flex-direction: row;">
 
-  
-        <view class="flex-wrp" style="flex-direction:row;">
-          <view class="flex-item demo-text-1">1</view>
-          <view class="flex-item demo-text-2">2</view>
-          <view class="flex-item demo-text-3">3</view>
-        </view>
+    <view class="mid-container-sub-item">
+      <view class="contaner_image">
+        <image src='/miniprogram/images/index_mid_icon_1.png' class="container-sub-item-img"></image>
+      </view>
+      <view>
+        <text class="comment_text">门店自取</text>
+        <text class="comment_text">下单免排队</text>
+      </view>
+    </view>
+
+    <!-- <view class="mid-container-sub-item" style="flex-direction: column;">
+      <view>
+        <image src='/miniprogram/images/index_mid_icon_2.png'></image>
+      </view>
+      <view>
+        <text>外卖</text>
+        <text>无接触配送，送喜到家</text>
+      </view>
+    </view> -->
+
+  </view>
+  <!-- 第二个子布局，横向排列 -->
+  <view class="mid-container-sub" style="flex-direction: row;">
+    <image src='/miniprogram/images/index_mid_icon_3.png'></image>
+    <text>一起喝</text>
+    <text>好友一起点</text>
+  </view>
 
 
 </view>

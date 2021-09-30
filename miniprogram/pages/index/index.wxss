@@ -1,31 +1,51 @@
 /* pages/focus/index.wxss */
-.placeholder {
-  margin: 5px;
-  padding: 0 10px;
-  text-align: center;
-  background-color: var(--weui-BG-1);
-  height: 2.3em;
-  line-height: 2.3em;
-  color: var(--weui-FG-1)
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 94%;
+  height: 100%;
+  border-radius: 15rpx;
 }
 
-.page__bd {
-  padding-bottom: 40px;
-  background-color: lightgrey;
+.mid-container {
+  margin-top: 30rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  display: flex;
+  background-color: white;
+  border-radius: 25rpx;
 }
 
-.page__bd_spacing {
-  padding-left: 15px;
-  padding-right: 15px
-}
-
-.flex-wrp {
-  margin-top: 60rpx;
+.mid-container-sub {
+  background-color: thistle;
+  margin: 50rpx;
   display: flex;
 }
 
-.flex-item {
-  width: 200rpx;
-  height: 300rpx;
-  font-size: 26rpx;
+.mid-container-sub-item {
+  width: 25%;
+  text-align: center;
+}
+
+.comment_text {
+  font-size: 14px;
+}
+
+.contaner_image {
+  width: 80rpx;
+  height: 40px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translate(60%)
+}
+
+.container-sub-item-img {
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 50%)
 }
