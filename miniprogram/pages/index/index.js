@@ -17,7 +17,10 @@ Page({
     duration: 1700,
     circular: true,
     Changeline: true,
-
+    buttons: [
+      { text: '取消' },
+      { text: '确认' }
+    ]
   },
 
   /**

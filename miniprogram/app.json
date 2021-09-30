@@ -53,6 +53,9 @@
       }
     ]
   },
+  "useExtendedLib": {
+    "weui": true
+  },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }

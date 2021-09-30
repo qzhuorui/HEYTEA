@@ -1,1 +1,31 @@
 /* pages/focus/index.wxss */
+.placeholder {
+  margin: 5px;
+  padding: 0 10px;
+  text-align: center;
+  background-color: var(--weui-BG-1);
+  height: 2.3em;
+  line-height: 2.3em;
+  color: var(--weui-FG-1)
+}
+
+.page__bd {
+  padding-bottom: 40px;
+  background-color: lightgrey;
+}
+
+.page__bd_spacing {
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.flex-wrp {
+  margin-top: 60rpx;
+  display: flex;
+}
+
+.flex-item {
+  width: 200rpx;
+  height: 300rpx;
+  font-size: 26rpx;
+}
